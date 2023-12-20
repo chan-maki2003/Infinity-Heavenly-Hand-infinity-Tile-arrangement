@@ -1,0 +1,100 @@
+body{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
+
+._button{
+    width: 10em;
+    height:3em;
+}
+
+.tehai {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.tehai img {
+    margin: 0 5px; 
+}
+
+.sutehai {
+    justify-content: center;
+    align-items: flex-start;
+    height: 70vh; /* 画面の高さいっぱいに広がるように設定 */
+
+    flex-wrap: wrap; /* flexbox内で折り返しを有効にする */
+}
+
+.sutehai img {
+    margin: 0 5px; /* 画像間に適度な間隔を設定（必要に応じて調整） */
+}
+
+.cCount {
+    display: inline-block; /* インラインブロック要素に変更 */
+    padding: 0.25em 1em;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+    position: relative;
+  }
+  
+  .cCount {
+    display: inline-block;
+    padding: 0.25em 1em;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+    position: relative;
+    background-color: white; /* 背景色を白に設定 */
+  }
+  
+  .cCount:before,
+  .cCount:after {
+    content: '';
+    position: absolute;
+    top: -7px;
+    width: 2px;
+    height: calc(100% + 14px);
+    background-color: black;
+  }
+  
+  .cCount:before {
+    left: 7px;
+  }
+  
+  .cCount:after {
+    right: 7px;
+  }
+  
+.balloon1-top {
+    position: relative;
+    display: inline-block;
+    margin: 1.5em 0;
+    padding: 7px 10px;
+    min-width: 120px;
+    max-width: 100%;
+    color: #555;
+    font-size: 16px;
+    background: #e0edff;
+  }
+  
+  .balloon1-top:before {
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    margin-left: -15px;
+    border: 15px solid transparent;
+    border-bottom: 15px solid #e0edff;
+  }
+  
+  .balloon1-top p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .win{
+    text-align:center;
+  }
